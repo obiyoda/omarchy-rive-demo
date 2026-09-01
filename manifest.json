@@ -2,13 +2,22 @@
   "schemaVersion": 1,
   "id": "obiyoda.rive-demo",
   "name": "Native Rive Demo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Jared Daines",
   "description": "Interactive Rive icon gallery and audio player rendered natively in Omarchy.",
   "kinds": [
-    "panel"
+    "panel",
+    "bar-widget"
   ],
   "entryPoints": {
-    "panel": "Panel.qml"
+    "panel": "Panel.qml",
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Rive Radio",
+    "description": "Animated native Rive icon that opens the demo player",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
   }
 }

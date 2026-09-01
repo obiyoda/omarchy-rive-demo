@@ -30,6 +30,14 @@ omarchy plugin add https://github.com/obiyoda/omarchy-rive-demo.git --enable
 omarchy-shell shell summon obiyoda.rive-demo '{}'
 ```
 
+Place its experimental native Rive widget in the top bar:
+
+```bash
+omarchy bar move obiyoda.rive-demo --before omarchy.audio
+```
+
+The cassette icon is a live crop of the interactive Rive icon artboard. Left-click opens the audio player; right-click opens the complete icon gallery.
+
 Open a specific example directly:
 
 ```bash
