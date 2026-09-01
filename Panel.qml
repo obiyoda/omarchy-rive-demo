@@ -165,7 +165,7 @@ Item {
                 id: rive
                 anchors.fill: parent
                 anchors.margins: 12
-                source: root.opened ? root.currentAsset : ""
+                source: root.currentAsset
                 artboard: root.currentArtboard
                 stateMachine: root.currentStateMachine
                 fit: RiveItem.Contain

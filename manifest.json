@@ -5,6 +5,7 @@
   "version": "0.2.0",
   "author": "Jared Daines",
   "description": "Interactive Rive icon gallery and audio player rendered natively in Omarchy.",
+  "keepLoaded": true,
   "kinds": [
     "panel",
     "bar-widget"
