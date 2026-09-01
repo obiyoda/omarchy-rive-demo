@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "obiyoda.rive-demo",
-  "name": "Native Rive Demo",
-  "version": "0.2.0",
+  "name": "Rive Sprout",
+  "version": "0.4.0",
   "author": "Jared Daines",
-  "description": "Interactive Rive icon gallery and audio player rendered natively in Omarchy.",
+  "description": "A tiny interactive Sprout rendered natively in the Omarchy bar and desktop.",
   "keepLoaded": true,
   "kinds": [
     "panel",
@@ -15,9 +15,9 @@
     "barWidget": "Widget.qml"
   },
   "barWidget": {
-    "displayName": "Rive Radio",
-    "description": "Animated native Rive icon that opens the demo player",
-    "category": "Media",
+    "displayName": "Sprout",
+    "description": "Animated native Rive companion",
+    "category": "Info",
     "allowMultiple": false,
     "defaultSection": "right"
   }
