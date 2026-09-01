@@ -13,7 +13,17 @@ The native module is deliberately distributed separately from the QML plugin bec
 
 ## Install
 
-Once the runtime package is installed and this directory has been published as the standalone `obiyoda/omarchy-rive-demo` repository, add and enable it:
+Build and install the native runtime first:
+
+```bash
+git clone https://github.com/obiyoda/rive-qtquick-omarchy.git
+cd rive-qtquick-omarchy
+scripts/bootstrap.sh
+scripts/build.sh
+scripts/install-runtime.sh
+```
+
+Then add and enable the demo plugin:
 
 ```bash
 omarchy plugin add https://github.com/obiyoda/omarchy-rive-demo.git --enable
